@@ -1,0 +1,521 @@
+C:\Users\snehp\Desktop\Project\Movie Recommandation\movie-system-backend-master\movie_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\snehp\Desktop\Project\Movie Recommandation\movie-system-backend-master\api\logic.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\snehp\Desktop\Project\Movie Recommandation\movie-system-backend-master\movie_backend\settings.py changed, reloading.
+django.utils.autoreload INFO 2023-04-12 22:14:56,645 autoreload 3944 3996 Watching for file changes with StatReloader
+api.logic INFO 2023-04-12 22:15:14,212 logic 3944 12188 getPopularMovies is successfully called
+api.logic WARNING 2023-04-12 22:15:14,212 logic 3944 12188 getMoiveDetails is successfully called
+django.utils.autoreload INFO 2023-04-12 22:16:36,219 autoreload 3944 3996 C:\Users\snehp\Desktop\Project\Movie Recommandation\movie-system-backend-master\movie_backend\settings.py changed, reloading.
+django.utils.autoreload INFO 2023-04-12 22:16:39,065 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 18:23:14,896 Watching for file changes with StatReloader
+django.request WARNING 2023-04-14 18:24:47,886 Unauthorized: /user/getmovie/
+django.request WARNING 2023-04-14 18:24:57,771 Unauthorized: /user/info/
+django.request WARNING 2023-04-14 18:25:17,575 Unauthorized: /user/home/
+api.logic INFO 2023-04-14 18:26:01,329 getPopularMovies is successfully called
+api.logic WARNING 2023-04-14 18:26:01,348 getMoiveDetails is successfully called
+django.utils.autoreload INFO 2023-04-14 18:33:49,686 Watching for file changes with StatReloader
+api.logic INFO 2023-04-14 18:33:54,856 getPopularMovies is successfully called
+api.logic WARNING 2023-04-14 18:33:54,864 getMoiveDetails is successfully called
+django.utils.autoreload INFO 2023-04-14 20:06:19,754 Watching for file changes with StatReloader
+api.logic INFO 2023-04-14 20:06:34,606 getPopularMovies is successfully called
+api.logic WARNING 2023-04-14 20:06:34,615 getMoiveDetails is successfully called
+django.request ERROR 2023-04-14 20:06:59,284 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 20, in post
+    user = userinfo.save(commit=False)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 189, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+django.utils.autoreload INFO 2023-04-14 20:10:36,392 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:10:38,687 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 20:10:52,481 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:10:54,663 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-14 20:11:04,594 makeProfile is successfully called
+django.request ERROR 2023-04-14 20:11:04,795 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 34, in post
+    makeProfile(userinfo.validated_data)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\logic.py", line 16, in makeProfile
+    userprofile = Profile.objects.create(
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 669, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 541, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 340, in __set__
+    super().__set__(instance, value)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 237, in __set__
+    raise ValueError(
+ValueError: Cannot assign "OrderedDict([('password', 'obiwan'), ('username', 'obiwan')])": "Profile.user" must be a "User" instance.
+django.utils.autoreload INFO 2023-04-14 20:11:15,293 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:11:16,824 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-14 20:11:37,654 makeProfile is successfully called
+django.request ERROR 2023-04-14 20:11:37,812 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 34, in post
+    makeProfile(userinfo.validated_data)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\logic.py", line 16, in makeProfile
+    userprofile = Profile.objects.create(
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 669, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 541, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 340, in __set__
+    super().__set__(instance, value)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 237, in __set__
+    raise ValueError(
+ValueError: Cannot assign "OrderedDict([('password', 'obiwan'), ('username', 'obiwan123')])": "Profile.user" must be a "User" instance.
+django.utils.autoreload INFO 2023-04-14 20:12:25,320 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:12:26,496 Watching for file changes with StatReloader
+django.request ERROR 2023-04-14 20:12:36,235 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 33, in post
+    userinfo.validated_data.save()
+AttributeError: 'collections.OrderedDict' object has no attribute 'save'
+django.utils.autoreload INFO 2023-04-14 20:12:54,365 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:12:56,149 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-14 20:13:01,943 makeProfile is successfully called
+django.request ERROR 2023-04-14 20:13:02,021 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 34, in post
+    makeProfile(userinfo.validated_data)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\logic.py", line 16, in makeProfile
+    userprofile = Profile.objects.create(
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 669, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 541, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 340, in __set__
+    super().__set__(instance, value)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_descriptors.py", line 237, in __set__
+    raise ValueError(
+ValueError: Cannot assign "OrderedDict([('password', 'obiwan'), ('username', 'obiwan1234')])": "Profile.user" must be a "User" instance.
+django.utils.autoreload INFO 2023-04-14 20:13:41,582 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:13:43,206 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-14 20:14:02,500 getUser is successfully called
+django.request ERROR 2023-04-14 20:14:02,651 Internal Server Error: /user/getuser/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 89, in get
+    movie_list = getUser(request.user)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\logic.py", line 141, in getUser
+    userprofile = Profile.objects.get(user=user)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+api.models.Profile.DoesNotExist: Profile matching query does not exist.
+django.request WARNING 2023-04-14 20:14:11,514 Unauthorized: /user/getuser/
+api.logic INFO 2023-04-14 20:14:38,215 getPopularMovies is successfully called
+api.logic WARNING 2023-04-14 20:14:38,220 getMoiveDetails is successfully called
+django.utils.autoreload INFO 2023-04-14 20:16:03,614 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:16:05,227 Watching for file changes with StatReloader
+django.request ERROR 2023-04-14 20:16:22,993 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 30, in post
+    user = userinfo.save(commit=False)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 189, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+django.request WARNING 2023-04-14 20:16:38,508 Unauthorized: /api/token/
+django.utils.autoreload INFO 2023-04-14 20:16:53,911 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:16:55,114 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 20:17:45,105 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:17:46,234 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-14 20:17:54,861 makeProfile is successfully called
+api.logic WARNING 2023-04-14 20:18:44,806 makeProfile is successfully called
+django.request WARNING 2023-04-14 20:19:09,894 Not Found: /favicon.ico
+django.utils.autoreload INFO 2023-04-14 20:19:50,217 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:19:51,385 Watching for file changes with StatReloader
+django.request WARNING 2023-04-14 20:20:36,826 Unauthorized: /api/token/
+django.utils.autoreload INFO 2023-04-14 20:21:37,314 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:21:38,468 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 20:21:45,598 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:21:46,755 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 20:23:24,294 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 20:23:25,547 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 20:24:34,410 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 22:26:31,464 Watching for file changes with StatReloader
+django.request WARNING 2023-04-14 22:27:00,647 Method Not Allowed: /user/create/
+django.request WARNING 2023-04-14 22:27:01,250 Not Found: /favicon.ico
+django.request WARNING 2023-04-14 22:27:11,740 Method Not Allowed: /user/create/
+django.utils.autoreload INFO 2023-04-14 22:27:43,390 C:\Users\soham\Documents\Python\movie-system-backend\api\serializers.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 22:27:44,551 Watching for file changes with StatReloader
+django.request WARNING 2023-04-14 22:28:28,377 Bad Request: /user/create/
+django.request ERROR 2023-04-14 22:29:30,798 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 30, in post
+    user = userinfo.save(commit=False)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 189, in save
+    assert 'commit' not in kwargs, (
+AssertionError: 'commit' is not a valid keyword argument to the 'save()' method. If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. You can also pass additional keyword arguments to 'save()' if you need to set extra attributes on the saved model instance. For example: 'serializer.save(owner=request.user)'.'
+django.utils.autoreload INFO 2023-04-14 22:30:06,122 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 22:30:07,251 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 22:30:25,645 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 22:30:26,826 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 22:30:50,555 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 22:30:51,708 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-14 22:31:10,461 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 22:31:11,696 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-14 22:31:20,333 makeProfile is successfully called
+django.request WARNING 2023-04-14 22:31:32,663 Not Found: /favicon.ico
+django.utils.autoreload INFO 2023-04-14 22:32:19,999 C:\Users\soham\Documents\Python\movie-system-backend\api\serializers.py changed, reloading.
+django.utils.autoreload INFO 2023-04-14 22:32:21,207 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-15 16:19:37,065 Watching for file changes with StatReloader
+api.logic INFO 2023-04-15 16:19:46,103 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 16:19:46,136 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 16:19:51,655 getMovies is successfully called
+api.logic WARNING 2023-04-15 16:20:12,177 makeProfile is successfully called
+django.request WARNING 2023-04-15 16:20:47,027 Not Found: /favicon.ico
+django.utils.autoreload INFO 2023-04-15 16:21:40,336 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:21:41,684 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:22:00,373 makeProfile is successfully called
+django.utils.autoreload INFO 2023-04-15 16:24:22,417 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:24:23,902 Watching for file changes with StatReloader
+django.request WARNING 2023-04-15 16:26:10,478 Unauthorized: /api/token/
+django.utils.autoreload INFO 2023-04-15 16:26:48,190 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:26:50,282 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:26:58,145 makeProfile is successfully called
+django.utils.autoreload INFO 2023-04-15 16:27:54,937 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:27:56,468 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:28:42,690 makeProfile is successfully called
+django.request WARNING 2023-04-15 16:30:35,065 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:30:45,114 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:30:53,683 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:31:46,459 Unauthorized: /api/token/
+django.utils.autoreload INFO 2023-04-15 16:32:31,578 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:32:33,462 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-04-15 16:33:07,083 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:33:08,711 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:33:20,635 makeProfile is successfully called
+django.utils.autoreload INFO 2023-04-15 16:33:39,499 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:33:41,359 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:34:06,558 makeProfile is successfully called
+django.request WARNING 2023-04-15 16:34:56,794 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:35:32,010 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:37:02,426 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:39:20,010 Unauthorized: /api/token/
+api.logic WARNING 2023-04-15 16:41:12,110 makeProfile is successfully called
+django.utils.autoreload INFO 2023-04-15 16:41:35,961 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:41:38,031 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:41:53,268 makeProfile is successfully called
+django.request ERROR 2023-04-15 16:41:53,572 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+django.utils.autoreload INFO 2023-04-15 16:42:27,385 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:42:28,667 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:42:36,390 makeProfile is successfully called
+django.request ERROR 2023-04-15 16:42:36,449 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 32, in post
+    return Response(UserSerializer(instance=user))
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\response.py", line 38, in __init__
+    raise AssertionError(msg)
+AssertionError: You passed a Serializer instance as data, but probably meant to pass serialized `.data` or `.error`. representation.
+django.utils.autoreload INFO 2023-04-15 16:44:26,688 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:44:27,955 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:44:36,443 makeProfile is successfully called
+django.request ERROR 2023-04-15 16:44:36,663 Internal Server Error: /user/create/
+Traceback (most recent call last):
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\soham\Documents\Python\movie-system-backend\api\views.py", line 32, in post
+    return Response(json.dumps(user))
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\soham\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+django.utils.autoreload INFO 2023-04-15 16:46:13,784 C:\Users\soham\Documents\Python\movie-system-backend\api\views.py changed, reloading.
+django.utils.autoreload INFO 2023-04-15 16:46:15,539 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 16:46:48,361 makeProfile is successfully called
+api.logic WARNING 2023-04-15 16:49:43,386 makeProfile is successfully called
+api.logic WARNING 2023-04-15 16:49:54,847 makeProfile is successfully called
+django.request WARNING 2023-04-15 16:50:23,164 Unauthorized: /api/token/
+api.logic WARNING 2023-04-15 16:51:43,820 makeProfile is successfully called
+api.logic WARNING 2023-04-15 16:54:17,482 makeProfile is successfully called
+django.request WARNING 2023-04-15 16:56:02,060 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:56:12,912 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:57:02,840 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:57:18,294 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 16:57:42,458 Bad Request: /api/token/
+api.logic INFO 2023-04-15 16:59:07,648 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 16:59:07,657 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 16:59:37,218 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 16:59:37,221 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 16:59:48,064 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 16:59:48,071 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 16:59:57,707 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 16:59:57,710 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 17:07:01,152 getFeature is successfully called
+api.logic WARNING 2023-04-15 17:07:01,152 mgetMovierecommandation is successfully called
+api.logic INFO 2023-04-15 17:07:01,217 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:07:01,223 getMoiveDetails is successfully called
+django.request WARNING 2023-04-15 17:08:54,237 Unauthorized: /api/token/
+api.logic WARNING 2023-04-15 17:09:07,366 getFeature is successfully called
+api.logic WARNING 2023-04-15 17:09:07,366 mgetMovierecommandation is successfully called
+api.logic INFO 2023-04-15 17:09:07,381 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:09:07,382 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 17:09:57,384 getFeature is successfully called
+api.logic WARNING 2023-04-15 17:09:57,386 mgetMovierecommandation is successfully called
+api.logic INFO 2023-04-15 17:09:57,406 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:09:57,416 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 17:10:00,421 getMovie is successfully called
+api.logic WARNING 2023-04-15 17:10:04,981 getFeature is successfully called
+api.logic WARNING 2023-04-15 17:10:04,989 mgetMovierecommandation is successfully called
+api.logic INFO 2023-04-15 17:10:04,999 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:10:05,013 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 17:10:07,547 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:10:07,556 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 17:10:38,148 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:11:02,987 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:11:12,225 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:11:25,070 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:11:29,790 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:13:14,514 getMovies is successfully called
+api.logic INFO 2023-04-15 17:16:19,695 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:16:19,707 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 17:16:58,142 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:16:58,142 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 17:17:04,107 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:17:04,114 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 17:21:10,555 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:21:37,600 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:21:59,361 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:22:26,468 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:23:41,966 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:23:59,599 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:24:43,650 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:25:42,520 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:25:52,621 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:25:57,391 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:26:01,263 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:26:11,561 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:26:17,591 getMovies is successfully called
+api.logic INFO 2023-04-15 17:27:26,278 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:27:26,278 getMoiveDetails is successfully called
+api.logic WARNING 2023-04-15 17:29:30,531 getMovies is successfully called
+api.logic WARNING 2023-04-15 17:29:37,141 getMovies is successfully called
+api.logic INFO 2023-04-15 17:29:55,021 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:29:55,021 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 17:52:49,664 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:52:49,664 getMoiveDetails is successfully called
+django.request WARNING 2023-04-15 17:53:26,462 Unauthorized: /api/token/
+django.request WARNING 2023-04-15 17:53:36,909 Bad Request: /api/token/
+api.logic WARNING 2023-04-15 17:53:49,224 getFeature is successfully called
+api.logic WARNING 2023-04-15 17:53:49,232 mgetMovierecommandation is successfully called
+api.logic INFO 2023-04-15 17:53:49,240 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:53:49,248 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 17:53:56,475 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:53:56,478 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 17:55:00,563 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 17:55:00,563 getMoiveDetails is successfully called
+django.utils.autoreload INFO 2023-04-15 18:07:21,898 Watching for file changes with StatReloader
+api.logic WARNING 2023-04-15 18:07:26,606 makeProfile is successfully called
+api.logic WARNING 2023-04-15 18:09:13,566 getFeature is successfully called
+api.logic WARNING 2023-04-15 18:09:13,568 mgetMovierecommandation is successfully called
+api.logic INFO 2023-04-15 18:09:13,589 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:09:13,594 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:09:18,431 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:09:18,438 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:12:02,330 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:12:02,330 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:33:50,613 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:33:50,613 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:34:34,597 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:34:34,601 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:34:44,844 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:34:44,852 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:37:04,714 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:37:04,721 getMoiveDetails is successfully called
+api.logic INFO 2023-04-15 18:37:12,316 getPopularMovies is successfully called
+api.logic WARNING 2023-04-15 18:37:12,324 getMoiveDetails is successfully called
